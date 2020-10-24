@@ -7,10 +7,12 @@
 
 #include <iostream>
 
+#include "VectorUtils.hpp"
+
 using namespace std;
 
 template<typename T>
-void printvar(const string &str, T t) {
+void printvar(const string &str, const T &t) {
     cout << str << " = " << t << " ";
 }
 
